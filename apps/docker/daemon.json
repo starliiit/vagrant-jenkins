@@ -1,0 +1,8 @@
+{
+  "registry-mirrors" : [
+    "http://192.168.166.233:8085",
+    "http://f1361db2.m.daocloud.io",
+    "http://dockerhub.azk8s.cn"
+  ]
+}
+
