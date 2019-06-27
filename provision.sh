@@ -24,7 +24,7 @@ apt update && apt install -y curl
 ### add user
 # adduser dio --gecos "First Last,RoomNumber,WorkPhone,HomePhone" --disabled-password
 # usermod -aG sudo dio
-# echo bolean:THEWORLD | chpasswd
+# echo dio:THEWORLD | chpasswd
 
 
 ### install docker and docker-compose
