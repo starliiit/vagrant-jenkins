@@ -16,7 +16,7 @@ apt update && apt install -y jenkins
 
 ### install plugins
 ### from: https://gist.github.com/chuxau/6bc42f0f271704cd4e91
-bash -xe $DIR/get-plugins.sh $DIR/plugins.txt $DIR/plugins
+bash -xe $DIR/get-plugins.sh $DIR/plugins.txt $DIR/plugins || echo "plugins downloaded!"
 sudo -u jenkins rsync -rv $DIR/plugins/ /var/lib/jenkins/plugins/
 
 
